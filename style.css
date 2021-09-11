@@ -9,7 +9,7 @@
     height: 1920px;
     z-index: 1;
   }
-  .groom {
+  #groom {
     font-size: 1.042rem;
     font-family: "Playfair Display";
     color: rgb(109, 17, 71);
@@ -40,7 +40,7 @@
     z-index: 5;
   }
 
-  .bride {
+  #bride {
     font-size: 1.042rem;
     font-family: "Playfair Display";
     color: rgb(109, 17, 71);
