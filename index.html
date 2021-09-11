@@ -5,9 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <title>Template</title>
     <link rel="stylesheet" href="./style.css" />
-    
   </head>
-  
+
   <body>
     <div class="Layer_1">
       <p id="groom">Yatin</p>
@@ -17,7 +16,15 @@
         Get set to congratulate and bless this newly married couple in town!
       </p>
     </div>
-    <script src="script.js" />
-  </body>
+    <script>
+      let name1 = prompt("Enter Groom Name: ");
+      let name2 = prompt("Enter Bride Name: ");
 
+      let groom = document.getElementById("groom");
+      let bride = document.getElementById("bride");
+
+      groom.innerHTML = `${name1}`;
+      bride.innerHTML = `${name2}`;
+    </script>
+  </body>
 </html>
