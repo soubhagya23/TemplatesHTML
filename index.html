@@ -8,23 +8,26 @@
   </head>
 
   <body>
+  
     <div class="Layer_1">
-      <p id="groom">Yatin</p>
+      <p id="groom" >Yatin</p>
       <p class="and">&</p>
       <p id="bride">Charu</p>
       <p class="wishes">
         Get set to congratulate and bless this newly married couple in town!
       </p>
     </div>
-    <script>
-      let name1 = prompt("Enter Groom Name: ");
+ 
+      <script>
+    /*   let name1 = prompt("Enter Groom Name: ");
       let name2 = prompt("Enter Bride Name: ");
-
       let groom = document.getElementById("groom");
       let bride = document.getElementById("bride");
-
+    
       groom.innerHTML = `${name1}`;
-      bride.innerHTML = `${name2}`;
+      bride.innerHTML = `${name2}`; */
+      document.getElementById("groom").contentEditable = "true";
+      document.getElementById("bride").contentEditable = "true";
     </script>
   </body>
 </html>
